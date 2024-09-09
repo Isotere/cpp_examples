@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -xc++
+    - -Wall
+    - -std=c++23
+    - -stdlib=libc++
+    # - -fmodules
+    # - -fbuiltin-module-map
+    - -I/Users/vyutilikov/Projects/CPP/cpp_examples/includes
+  CompilationDatabase: build/
+  Compiler: clang++
